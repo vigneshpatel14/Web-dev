@@ -1,0 +1,52 @@
+.parent{
+    background-color: pink;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 60px 500px 60px 60px;
+    gap: 5px;
+
+    /* grid-template-areas: 'header header header' 'aside1 main aside2'
+    'footer1 footer1 footer1' 'footer2 footer2 footer2' ; */
+}
+
+.child1{
+    background-color: aqua;
+    padding: 10px;
+    /* grid-area: header; */
+    grid-column: 1/6;
+
+}
+
+.child2{
+    background-color: rgb(247, 106, 106);
+    padding: 10px;
+    /* grid-area: aside1; */
+    grid-column: 1/2;
+
+}
+.child3{
+    background-color: rgb(206, 249, 64);
+    padding: 10px;
+    /* grid-area: main; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.child4{
+    background-color: rgb(255, 0, 251);
+    padding: 10px;
+    /* grid-area: aside2; */
+    grid-column: 3/7;
+}
+.child5{
+    background-color: rgb(43, 36, 242);
+    padding: 10px;
+    /* grid-area: footer1; */
+    grid-column: 1/6;
+}
+.child6{
+    background-color: rgb(30, 223, 84);
+    padding: 10px;
+    /* grid-area: footer2; */
+    grid-column: 1/6;
+}

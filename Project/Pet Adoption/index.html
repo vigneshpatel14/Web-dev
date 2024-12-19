@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption Form</title>
+    <style>
+      *{
+        background-color: bisque;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pet Adoption Application</h1>
+    <img src="images/Dog.jpg" alt="puppy" width="300">
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Information </legend>
+        <label for="name">Full name:</label>
+        <input type="text" , id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone">
+        <br><br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Pet Preference</legend>
+
+        <label for="pet-type">Type of Pet:</label>
+        <select id="pet-type" name="pet-type" required>
+          <option value="">Select one</option>
+          <option value="dog">Dog</option>
+          <option value="dog">Cat</option>
+          <option value="dog">Bird</option>
+          <option value="dog">Others</option>
+        </select>
+        <br><br>
+
+        <label>Age Range:</label><br />
+
+        <input type="radio" id="young" name="age" value="Young" required>
+        <label for="young"> Young</label>
+        <br>
+
+
+        <input type="radio" id="adult" name="age" value="Adult">
+        <label for="adult">Adult</label>
+        <br>
+
+        <input type="radio" id="senior" name="age" value="Senior">
+        <label for="senior">Senior</label>
+
+        <br><br>
+
+        <label for="reason">Why do you want to adopt a pet?</label><br />
+        <textarea name="reason" id="reason" rows="4" cols="50"></textarea>
+      </fieldset>
+
+      <br />
+      <input type="submit" value="Submit Application" style="color: aqua; background-color: black; border-radius: 5px;" />
+    </form>
+
+    <h2>Watch Cute Puppy Videos</h2>
+    <video width="500" height="240" controls>
+      <source src="Media/3191251-uhd_4096_2160_25fps.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.rubiks-cube-container {
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+#rubiks-cube {
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg) rotateY(-30deg);
+    position: relative;
+    transition: transform 0.2s ease-out;
+}
+
+.cubie {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Colors for the cube faces */
+.front { background-color: red; }
+.back { background-color: orange; }
+.left { background-color: green; }
+.right { background-color: blue; }
+.top { background-color: white; }
+.bottom { background-color: yellow; }
+
+/* Positioning the faces of the cubie */
+.front  { transform: rotateY(0deg) translateZ(50px); }
+.back   { transform: rotateY(180deg) translateZ(50px); }
+.left   { transform: rotateY(-90deg) translateZ(50px); }
+.right  { transform: rotateY(90deg) translateZ(50px); }
+.top    { transform: rotateX(90deg) translateZ(50px); }
+.bottom { transform: rotateX(-90deg) translateZ(50px); }

@@ -1,0 +1,12 @@
+*{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #212121;
+}

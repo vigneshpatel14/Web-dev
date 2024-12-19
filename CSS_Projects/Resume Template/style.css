@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #EBECF0;
+    display: flex;
+    justify-content: center;
+}
+
+.Header{
+    background-color: #fff;
+    width: 60%;
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.styled-hr{
+    border: none;
+    height: 2px;
+    background-color: blue;
+    margin: 10px 0;
+}
+
+
+h4{
+    color: blue;
+    margin-left: 10px;
+}
+
+
+.intro h1{
+    color: blue;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.intro h3{
+    font-size: 25px;
+}
+
+.technicalskills .row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+
+.technicalskills .row ul{
+    list-style: none;
+}
+
+
+.row-1 , .row-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-1 p , .row-3 p{
+    font-weight: 900;
+}

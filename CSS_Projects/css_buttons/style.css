@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(226, 224, 224);
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .Btn{
+    margin: 50px;
+}
+
+#btn-1{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: rgb(103, 103, 224);
+    border: 1px solid transparent;
+
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 777;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: 10px 20px;
+    position: relative;
+    transition: all 250ms;
+}
+
+#btn-1:hover , #btn-1:focus {
+    background-color: rgb(112, 169, 169);
+    box-shadow: rgba(0, 0, 0, 1.02) 0 4px 12px;
+}
+
+#btn-1:hover{
+    transform: translateY(-10px);
+}
+
+#btn-2{
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.02) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 777;
+    line-height: 20px;
+    min-height: 40px;
+    padding: 12px 14px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#btn-2:hover , #btn-2:active{
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(112, 242, 242);
+    color: black;
+    transform: rotateX('10');
+    transform: translateX(10px);
+    box-shadow: rgba(0, 0, 0, 1.02) 0 4px 12px;
+    opacity: .5;
+}
+
+#btn-3{
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 777;
+    line-height: 20px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#btn-4{
+    align-self: center;
+    background-color: #fff;
+    color: gray;
+    font-family: Neucha , sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    padding: .75rem;
+
+    border-radius: 15px 225px 225px 15px 15px 225px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+
+    cursor: pointer;
+    display: inline-block;
+
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+}
+
+#btn-4:hover{
+    box-shadow: rgba(0, 0, 0, .2) 2px 8px 8px -5px;
+    transform: matrix3d(0 , 2px , 0);
+}
+
+#btn-4:focus {
+    /* Adjust box shadow when focused */
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+#btn-5{
+    background: linear-gradient(to bottom right, #0D7C66, #41B3A2);
+
+    border: 0;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    padding: 0 1rem;
+
+    cursor: pointer;
+    display: inline-block;
+
+    transition: box-shadow .2s ease-in-out;
+}
+
+#btn-5:not([disabled]):focus{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), 
+                -.125rem -.125rem 1rem rgba(71, 239, 208, 0.5), 
+                .125rem .125rem 1rem rgba(57, 232, 241, 0.5);
+
+}
+
+#btn-5:not([disabled]):hover{
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), 
+                -.125rem -.125rem 1rem rgba(71, 239, 208, 0.5), 
+                .125rem .125rem 1rem rgba(57, 232, 241, 0.5);
+}
+
+#btn-5{
+    background: #f5f5fa;
+    box-shadow: -10px -10px 30px 0 #fff,
+    10px 10px 30px 0 #1d0dca17;
+    border: 0;
+    border-radius: 8px;
+    color: #2a1f62;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: .2s;
+
+    white-space: pre;
+    touch-action: manipulation;
+}
+
+
+#btn-6{
+    align-items: center;
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff , 10px 10px 30px 0 #1d0dca17;
+
+    box-sizing: border-box;
+    color: #2a1f62;
+    cursor: pointer;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1rem;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+}
+
+
+#btn-6:hover {
+    /* Same hover effect as .btn-5 */
+    background: #f8f8ff;
+    box-shadow: -15px -15px 30px 0 #fff, 
+                15px 15px 30px 0 #1d0dca17;
+}
+
+#btn-7 {
+    /* Basic button styling */
+    background-color: #FF5722;  /* Orange background */
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#btn-7:before {
+    background-color: initial;
+    background-image: linear-gradient(#FFD54F 0, rgba(255, 213, 79, 0) 100%);  /* Yellow to transparent gradient */
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+#btn-7:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);  /* Slightly increase size on hover */
+    background-color: #E64A19;  /* Darken background color on hover */
+}
+
+#btn-8 {
+    /* Basic button styling */
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;  /* Light blue inset shadow */
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#btn-8:hover {
+    background-color: #FFC229;  /* Change to yellow on hover */
+    box-shadow: #FF6314 0 -6px 8px inset;  /* Change to orange inset shadow */
+    transform: scale(1.125);  /* Increase size on hover */
+}
+
+#btn-8:active {
+    transform: scale(1.925);  /* Slightly smaller than hover, but still larger than normal */
+}
+
+
+
+#btn-9 {
+    /* Basic button styling */   
+    padding: 1em 3em;
+    border: none;
+    outline: none;
+    color: #000;
+    background: #fff;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+#btn-9:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000
+    );  /* Rainbow gradient */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-9 20s linear infinite;  /* Apply the glow animation */
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-9 {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+#btn-9:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;  /* Light gray background */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+#btn-10 {
+    /* Reset all properties to unset */
+    all: unset;
+    /* Set button dimensions */
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    /* Transparent background */
+    background: transparent;
+    border: none;
+    /* Text color */
+    color: #f0f0f0;
+    /* Cursor style */
+    cursor: pointer;
+    /* Positioning */
+    position: relative;
+    z-index: 1;
+    /* Padding for larger click area */
+    padding: 10px 20px;
+    /* Flexbox for centering content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Prevent text wrapping */
+    white-space: nowrap;
+    /* Disable text selection */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#btn-10::after,
+#btn-10::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+/* Main button shape */
+#btn-10::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+}
+
+/* Create a small shape behind the button for effect */
+#btn-10::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+/* Hover effect for the main button shape */
+#btn-10:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+}
+
+/* Hover effect for the small shape behind the button */
+#btn-10:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+/* Active state effect */
+#btn-10:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+}

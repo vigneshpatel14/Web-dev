@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #1b96bc;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav img {
+            height: 80px;
+            width: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-left: 10px;
+        }
+
+        nav a:hover {
+            background-color: #144d6b;
+        }
+
+        /* Main content styling */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        section div {
+            flex: 1;
+            padding: 15px;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #1b96bc;
+        }
+
+        section h2 {
+            font-size: 20px;
+            color: #444;
+            margin-bottom: 5px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 40px 0;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #050505;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        footer ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+            }
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div>
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div>
+            <a href="#">Tech Updates</a>
+            <a href="#">Politics</a>
+            <a href="#">Business</a>
+            <a href="#">Sports</a>
+            <a href="#">World</a>
+            <a href="#">Travel</a>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div>
+                <img src="images/marketlive.avif" alt="Market Live">
+            </div>
+            <div>
+                <h2>Trending</h2>
+                <h1>Stock Market Live Updates</h1>
+                <p>Indian benchmark indices Nifty 50 and Sensex hit fresh record highs in today's trade session. Reliance, UltraTech Cement, HUL, Kotak Mahindra Bank, ICICI Bank are the top contributors towards Nifty 50's upside today. CE Info Systems, Sanghi Industries, Mazagon Dock Shipbuilders, Yes Bank, Vishnu Prakash R Punglia, Mahindra & Mahindra Finance, NTPC are among the other stocks in focus today.<br><br>1 hour ago</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div>
+                <img src="images/insurance.avif" alt="Insurance Image">
+            </div>
+            <div>
+                <h2>Finance</h2>
+                <h1>No taxation for annuity plans</h1>
+                <p>Finance Minister Nirmala Sitharaman will most likely present the Union Budget for the financial year 2024-25 in the last week of July. Insurance experts have laid out recommendations that could boost the accessibility and growth of insurance in India.<br><br>3 hours ago</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>Privacy Policy | Do not sell my personal info | Terms of Service | news.com | Site Map</p>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Coupons</a></li>
+            </ul>
+        </footer>
+    </main>
+
+</body>
+</html>
+
